@@ -1,6 +1,6 @@
 import gregorian
-import gregorian_jdn
-
+import gregorian_to_jdn
+import from_jdn_gregorian
 
 to_from = int(input("1. To JDN\n2. From JDN\n"))
 
