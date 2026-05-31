@@ -1,4 +1,4 @@
-import gregorian.py
+import gregorian
 
 def to_jdn(year: int, month: int, day: int) -> int:
     a = (14 - month) // 12
