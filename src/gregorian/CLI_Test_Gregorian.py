@@ -10,11 +10,11 @@ if to_from == 1:
     month = int(input("Month: "))
     day = int(input("Day: "))
 
-    jdn = gregorian_jdn.to_jdn(year, month, day)
+    jdn = gregorian_to_jdn.to_jdn(year, month, day)
     print("JDN:", jdn)
 
 else:
     jdn = int(input("JDN: "))
 
-    date = gregorian_jdn.from_jdn(jdn)
+    date = from_jdn_gregorian.from_jdn(jdn)
     print("Gregorian:", date)
