@@ -24,7 +24,7 @@ This is primarily a **learning-focused systems programming project**.
 
 Instead of converting directly between calendars:
 
-## How We Work
+# How We Work
 
 1. The README defines the system and architecture
 2. Work is tracked in GitHub Issues
