@@ -24,3 +24,9 @@ This is primarily a **learning-focused systems programming project**.
 
 Instead of converting directly between calendars:
 
+## How We Work
+
+1. The README defines the system and architecture
+2. Work is tracked in GitHub Issues
+3. Each calendar is implemented as an independent module
+4. All conversions go through JDN (no direct calendar-to-calendar logic)
